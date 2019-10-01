@@ -15,7 +15,7 @@ import edu.kiet.www.blackbox.models.HistoryPOJO;
 /**
  * Created by sooraj on 12/8/17.
  */
-
+//Changes for HactoberFest 2019
 public class historyAdapter extends RecyclerView.Adapter<historyAdapter.viewHolder> {
     List<HistoryPOJO> historyPOJOList; Context context;
    public historyAdapter(Context context, List<HistoryPOJO> history){
