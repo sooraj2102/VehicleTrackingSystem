@@ -35,6 +35,7 @@ public class ServiceGenerator {
         builder2=new Retrofit.Builder().baseUrl(url).addConverterFactory(GsonConverterFactory.create());
         Retrofit retrofit = builder2.client(httpClient.build()).build();
         return retrofit.create(serviceClass);
+        
     }
 
     public static <S> S createService(Class<S> serviceClass, String username, String password) {
